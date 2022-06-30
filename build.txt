@@ -1,0 +1,4 @@
+flex lexer.l
+bison -d parser.y
+gcc parser.tab.c
+a.exe < sample_input1.c
